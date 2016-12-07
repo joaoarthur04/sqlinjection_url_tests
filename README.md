@@ -11,3 +11,11 @@ python Url_vulneravel.py http://linkdosite.com.br/algumacoisa.php?id=123
 sys
 urllib
 urllib.request
+
+
+
+Testes feitos na versão 3.5 python.
+
+
+João Arthur.
+joaoarthur04@hotmail.com
