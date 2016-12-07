@@ -5,8 +5,10 @@ import urllib.request
 argumento = sys.argv
 
 def analise(fullurl):
-    arquivo = open('c:\\Users\Aluno01\\PycharmProjects\\Extrar_email-WEB\\lista.txt', 'r')
-    logsfile = open('c:\\Users\Aluno01\\PycharmProjects\\Extrar_email-WEB\\log_sqlinjection.txt', 'a')
+    #Adicionar o caminho do arquivo
+    arquivo = open('lista.txt', 'r')
+    #Adicionar o caminho do arquivo
+    logsfile = open('log_sqlinjection.txt', 'a')
     #linhas = arquivo.readlines()
     #print(linhas)
     print("##### Script created by ---- João Arthur ---######\n ###--Contact: joaoarthur04@hotmail.com --###")
